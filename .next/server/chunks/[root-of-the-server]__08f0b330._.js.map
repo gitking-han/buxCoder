@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":["file:///D:/nextjslearning/hunting-coder/src/app/api/blogs/route.js"],"sourcesContent":["// src/app/api/blogs/route.js\r\nimport { promises as fs } from \"fs\";\r\n\r\nexport async function GET() {\r\n  const data = await fs.readFile(\"blogdata/data.json\", \"utf-8\");\r\n  return Response.json(JSON.parse(data));\r\n}\r\n\r\nexport async function POST(req) {\r\n  const body = await req.json(); // read request body\r\n  return Response.json({ message: \"POST received\", body });\r\n}\r\n"],"names":[],"mappings":"AAAA,6BAA6B;;;;;;;AAC7B;;AAEO,eAAe;IACpB,MAAM,OAAO,MAAM,yGAAE,CAAC,QAAQ,CAAC,sBAAsB;IACrD,OAAO,SAAS,IAAI,CAAC,KAAK,KAAK,CAAC;AAClC;AAEO,eAAe,KAAK,GAAG;IAC5B,MAAM,OAAO,MAAM,IAAI,IAAI,IAAI,oBAAoB;IACnD,OAAO,SAAS,IAAI,CAAC;QAAE,SAAS;QAAiB;IAAK;AACxD","debugId":null}}]
-}

@@ -9,36 +9,3 @@ yarn-error.log*
 out/
 build/
 
-# Logs
-*.log
-logs/
-pnpm-debug.log*
-
-# Runtime files
-*.pid
-*.seed
-*.pid.lock
-
-# Local environment files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# MacOS / Linux / Windows system files
-.DS_Store
-Thumbs.db
-
-# VSCode settings
-.vscode/*
-!.vscode/extensions.json
-
-# IDE files
-.idea/
-*.swp
-
-# Optional: ignore coverage reports
-coverage/
-
-# Optional: ignore public uploads (if dynamic)
-# public/uploads/

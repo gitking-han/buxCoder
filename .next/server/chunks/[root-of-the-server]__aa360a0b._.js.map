@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file:///D:/nextjslearning/hunting-coder/src/app/api/postcontact/route.js"],"sourcesContent":["// app/api/postcontact/route.js\r\nimport { NextResponse } from \"next/server\";\r\n\r\n\r\nexport async function POST(req) {\r\n    try {\r\n        const body = await req.json();\r\n        const { username, email, description } = body;\r\n        if (!username && !email && !description) {\r\n            return NextResponse.json({ message: \"Please fill all the fields\", data:{username, email, description} }\r\n            )\r\n        }\r\n        return NextResponse.json({message:\"Message has been submitted successfuly\"})\r\n    }\r\n    catch(error) {\r\n        return NextResponse.json({error:\"Invalid Response\"},{status:\"400\"})\r\n    }\r\n}\r\n"],"names":[],"mappings":"AAAA,+BAA+B;;;;;AAC/B;;AAGO,eAAe,KAAK,GAAG;IAC1B,IAAI;QACA,MAAM,OAAO,MAAM,IAAI,IAAI;QAC3B,MAAM,EAAE,QAAQ,EAAE,KAAK,EAAE,WAAW,EAAE,GAAG;QACzC,IAAI,CAAC,YAAY,CAAC,SAAS,CAAC,aAAa;YACrC,OAAO,gJAAY,CAAC,IAAI,CAAC;gBAAE,SAAS;gBAA8B,MAAK;oBAAC;oBAAU;oBAAO;gBAAW;YAAE;QAE1G;QACA,OAAO,gJAAY,CAAC,IAAI,CAAC;YAAC,SAAQ;QAAwC;IAC9E,EACA,OAAM,OAAO;QACT,OAAO,gJAAY,CAAC,IAAI,CAAC;YAAC,OAAM;QAAkB,GAAE;YAAC,QAAO;QAAK;IACrE;AACJ","debugId":null}}]
+}

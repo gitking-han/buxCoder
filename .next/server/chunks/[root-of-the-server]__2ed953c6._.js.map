@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file:///D:/nextjslearning/hunting-coder/src/app/api/contact/route.js"],"sourcesContent":["// app/api/contact/route.ts\r\nimport { NextResponse } from \"next/server\";\r\n\r\nexport async function GET() {\r\n  return NextResponse.json({ message: \"Hello from Next.js!\" });\r\n}\r\n"],"names":[],"mappings":"AAAA,2BAA2B;;;;;AAC3B;;AAEO,eAAe;IACpB,OAAO,gJAAY,CAAC,IAAI,CAAC;QAAE,SAAS;IAAsB;AAC5D","debugId":null}}]
+}

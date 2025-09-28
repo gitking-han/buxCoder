@@ -1,4 +1,5 @@
-import { promises as fs } from "fs";
+// src/app/api/blog/route.js
+import blogs from "@/data/data.json";
 
 export async function GET(req) {
   try {
@@ -10,12 +11,8 @@ export async function GET(req) {
       return Response.json({ error: "Missing id" }, { status: 400 });
     }
 
-    // Load blogs
-    const data = await fs.readFile("blogdata/data.json", "utf-8");
-    const blogs = JSON.parse(data);
-
     // Find blog
-    const blog = blogs.find((b) => b.id === parseInt(id));
+    const blog = blogs.find((b) => String(b.id) === id);
 
     if (!blog) {
       return Response.json({ error: "Blog not found" }, { status: 404 });

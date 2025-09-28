@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with Modern JavaScript",
+    "content": "An introductory guide to modern JavaScript features like let/const, arrow functions, template literals, and async/await. Useful examples and small exercises to practice.",
+    "author": "Aisha Khan"
+  },
+  {
+    "id": 2,
+    "title": "Responsive Layouts with CSS Grid",
+    "content": "How CSS Grid simplifies complex layouts. Covers grid containers, tracks, alignment, and practical examples for responsive designs.",
+    "author": "Bilal Ahmed"
+  },
+  {
+    "id": 3,
+    "title": "A Beginner's Guide to React Hooks",
+    "content": "Understand useState, useEffect, and custom hooks. Learn patterns to keep components clean and reusable.",
+    "author": "Hanzala"
+  },
+  {
+    "id": 4,
+    "title": "Writing Clean Code: Naming and Structure",
+    "content": "Best practices for naming variables, functions, and organizing files to make code readable and maintainable.",
+    "author": "Sara Malik"
+  },
+  {
+    "id": 5,
+    "title": "SEO Basics for Developers",
+    "content": "A developer-focused overview of SEO: semantic HTML, meta tags, performance, and structured data to help search engines index your site.",
+    "author": "Omar Raza"
+  },
+  {
+    "id": 6,
+    "title": "Intro to TypeScript for JavaScript Devs",
+    "content": "Why TypeScript matters, types, interfaces, and gradual adoption strategies to make your codebase safer and easier to refactor.",
+    "author": "Fatima Noor"
+  },
+  {
+    "id": 7,
+    "title": "Building Accessible Web Apps",
+    "content": "Practical accessibility tips: ARIA roles, keyboard navigation, color contrast, and testing with assistive technologies.",
+    "author": "Yasir Khan"
+  },
+  {
+    "id": 8,
+    "title": "Performance Optimization: Lazy Loading",
+    "content": "Techniques to lazy-load images, components, and routes to speed up initial load and improve user experience.",
+    "author": "Mariam Ali"
+  },
+  {
+    "id": 9,
+    "title": "Understanding RESTful APIs",
+    "content": "Core principles of RESTful design, endpoints, HTTP verbs, status codes, and versioning best practices.",
+    "author": "Zain ul Abidin"
+  },
+  {
+    "id": 10,
+    "title": "Intro to GraphQL: Concepts & Use Cases",
+    "content": "How GraphQL differs from REST, key concepts like schemas and resolvers, and when to choose it for your project.",
+    "author": "Amna Shah"
+  },
+  {
+    "id": 11,
+    "title": "Unit Testing JavaScript with Jest",
+    "content": "Getting started with Jest: writing unit tests, mocking, and testing asynchronous code for reliable applications.",
+    "author": "Khalid Mir"
+  },
+  {
+    "id": 12,
+    "title": "State Management Patterns in React",
+    "content": "Comparing Context API, Redux, and newer patterns. When to lift state, avoid overengineering, and keep apps predictable.",
+    "author": "Nida Farooq"
+  },
+  {
+    "id": 13,
+    "title": "Introduction to Next.js",
+    "content": "Explore SSR, SSG, and the App Router. Practical examples for building fast, SEO-friendly React applications.",
+    "author": "Irfan Ali"
+  },
+  {
+    "id": 14,
+    "title": "Design Systems: Why They Matter",
+    "content": "What a design system is, core components, tokens, and how it boosts consistency across large products.",
+    "author": "Sana Iqbal"
+  },
+  {
+    "id": 15,
+    "title": "Docker Basics for Developers",
+    "content": "Containerization concepts, writing Dockerfiles, and local development workflows using containers.",
+    "author": "Haroon Sheikh"
+  },
+  {
+    "id": 16,
+    "title": "Continuous Integration with GitHub Actions",
+    "content": "Setting up CI pipelines to run tests, linting, and builds on push. Example workflows and tips for speed.",
+    "author": "Laila Zafar"
+  },
+  {
+    "id": 17,
+    "title": "Introduction to Node.js Streams",
+    "content": "Overview of readable and writable streams, piping, and use cases for processing large datasets efficiently.",
+    "author": "Adil Raza"
+  },
+  {
+    "id": 18,
+    "title": "Progressive Web Apps: Offline-first Design",
+    "content": "Service workers, caching strategies, and tips to make web apps work reliably offline and feel native.",
+    "author": "Rubina Khan"
+  },
+  {
+    "id": 19,
+    "title": "Writing Effective Technical Documentation",
+    "content": "Guidelines for clear README files, API docs, and maintaining docs as code to help teams onboard faster.",
+    "author": "Usman Tariq"
+  },
+  {
+    "id": 20,
+    "title": "Intro to Databases: SQL vs NoSQL",
+    "content": "Differences between relational and document databases, common use cases, and how to choose the right one.",
+    "author": "Zara Qureshi"
+  },
+  {
+    "id": 21,
+    "title": "Basics of Web Security",
+    "content": "Common vulnerabilities like XSS and CSRF, and defensive measures including input sanitization and secure headers.",
+    "author": "Faisal Khan"
+  },
+  {
+    "id": 22,
+    "title": "Async Patterns in JavaScript",
+    "content": "Promises, async/await, and concurrency control patterns such as throttling and debouncing for robust code.",
+    "author": "Huma Siddiqui"
+  },
+  {
+    "id": 23,
+    "title": "Modern CSS: Variables and Functions",
+    "content": "Using CSS custom properties and calc() to build flexible themes and responsive designs without heavy tooling.",
+    "author": "Sajid Ali"
+  },
+  {
+    "id": 24,
+    "title": "Command Line Productivity Tips",
+    "content": "Useful shell tricks, aliases, and small utilities to speed up daily development tasks.",
+    "author": "Kiran Malik"
+  },
+  {
+    "id": 25,
+    "title": "Microfrontends: When and How",
+    "content": "An introduction to microfrontend architecture, integration strategies, and trade-offs to consider.",
+    "author": "Bilal Shah"
+  },
+  {
+    "id": 26,
+    "title": "Working with WebSockets",
+    "content": "Building real-time features with WebSockets: connection lifecycle, message formats, and scaling tips.",
+    "author": "Noreen Aziz"
+  },
+  {
+    "id": 27,
+    "title": "Effective Code Reviews",
+    "content": "How to give constructive feedback, focus on intent not style, and use automation to reduce friction.",
+    "author": "Adeel Khan"
+  },
+  {
+    "id": 28,
+    "title": "Introduction to Serverless Functions",
+    "content": "Benefits and limitations of serverless, typical use cases, and cost considerations when using cloud FaaS.",
+    "author": "Misha Qadir"
+  },
+  {
+    "id": 29,
+    "title": "Building a Simple REST API with Express",
+    "content": "Step-by-step to create routes, middleware, validation, and basic error handling with Express.js.",
+    "author": "Zubair Nazir"
+  },
+  {
+    "id": 30,
+    "title": "Designing Intuitive UX Flows",
+    "content": "Principles of user-centered design, wireframing, and testing flows to reduce friction and increase conversion.",
+    "author": "Farah Javed"
+  },
+  {
+    "id": 31,
+    "title": "Data Visualization Basics",
+    "content": "Choosing the right chart type, avoiding misleading visuals, and libraries to help communicate data clearly.",
+    "author": "Hamza Iqbal"
+  },
+  {
+    "id": 32,
+    "title": "Setting Up a Personal Blog with Markdown",
+    "content": "Tools and workflows for writing and publishing a technical blog using static site generators and Markdown.",
+    "author": "Naveed Ali"
+  },
+  {
+    "id": 33,
+    "title": "Debugging Techniques for Developers",
+    "content": "Systematic debugging steps, using breakpoints, logs, and bisecting changes to find issues faster.",
+    "author": "Rimsha Khan"
+  },
+  {
+    "id": 34,
+    "title": "Managing Technical Debt",
+    "content": "Recognizing debt, prioritizing payoff, and processes to balance speed with long-term health of the codebase.",
+    "author": "Sohail Ahmed"
+  },
+  {
+    "id": 35,
+    "title": "Modern Frontend Tooling Overview",
+    "content": "ESBuild, Vite, and bundlers: what they do, how they differ, and how to choose for your project.",
+    "author": "Ayesha Rauf"
+  },
+  {
+    "id": 36,
+    "title": "How to Prepare for Coding Interviews",
+    "content": "Study plans, practice resources, system design basics, and tips to handle behavioral questions confidently.",
+    "author": "Taimoor Khan"
+  },
+  {
+    "id": 37,
+    "title": "Building Offline Forms with Local Storage",
+    "content": "Techniques to save form state locally, sync when online, and handle conflicts gracefully.",
+    "author": "Maryam Shah"
+  },
+  {
+    "id": 38,
+    "title": "Intro to Machine Learning for Developers",
+    "content": "Core concepts, common algorithms, and how to integrate simple ML models into web applications.",
+    "author": "Suleman Mir"
+  },
+  {
+    "id": 39,
+    "title": "Productivity Systems: GTD for Developers",
+    "content": "Applying Getting Things Done to engineering work: inbox, next actions, and regular reviews to stay focused.",
+    "author": "Hina Tariq"
+  },
+  {
+    "id": 40,
+    "title": "Designing APIs for Extensibility",
+    "content": "Versioning, pagination, feature flags, and patterns to ensure APIs evolve without breaking clients.",
+    "author": "Shahzad Iqbal"
+  },
+  {
+    "id": 41,
+    "title": "Secure Authentication Best Practices",
+    "content": "Password policies, multi-factor authentication, session handling, and token-based approaches for web apps.",
+    "author": "Areeba Khan"
+  },
+  {
+    "id": 42,
+    "title": "Introduction to Web Assembly",
+    "content": "What WebAssembly is, use cases for performance-critical code, and how to call WASM from JavaScript.",
+    "author": "Kamran Ali"
+  },
+  {
+    "id": 43,
+    "title": "Effective Remote Collaboration",
+    "content": "Tools and habits for distributed teams: asynchronous communication, clear docs, and regular check-ins.",
+    "author": "Nida Khan"
+  },
+  {
+    "id": 44,
+    "title": "Creating Reusable Component Libraries",
+    "content": "Design tokens, documentation, versioning, and testing components across projects for consistency.",
+    "author": "Ayan Butt"
+  },
+  {
+    "id": 45,
+    "title": "Intro to CI/CD for Small Teams",
+    "content": "Set up automated builds, deployments, and rollback strategies to ship safely and often.",
+    "author": "Rafia Siddiqui"
+  },
+  {
+    "id": 46,
+    "title": "Monitoring and Observability Basics",
+    "content": "Metrics, logs, traces, and how to instrument applications to quickly diagnose production issues.",
+    "author": "Faraz Mehmood"
+  },
+  {
+    "id": 47,
+    "title": "Writing Maintainable CSS at Scale",
+    "content": "Methodologies like BEM, utility-first approaches, and CSS-in-JS pros and cons for large codebases.",
+    "author": "Sadia Noor"
+  },
+  {
+    "id": 48,
+    "title": "Mobile-First Design Principles",
+    "content": "Start designs for small screens, progressive enhancement, and responsive patterns that prioritize mobile users.",
+    "author": "Yousuf Khan"
+  },
+  {
+    "id": 49,
+    "title": "From Idea to MVP: A Practical Checklist",
+    "content": "Define core user value, build iteratively, measure metrics, and ship an MVP that learns fast.",
+    "author": "Mehwish Tariq"
+  },
+  {
+    "id": 50,
+    "title": "Career Growth for Developers: Roadmap",
+    "content": "Skill tracking, mentorship, learning plans, and soft skills to transition from individual contributor to leader.",
+    "author": "Hanzala"
+  }
+]

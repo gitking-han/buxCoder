@@ -1,12 +1,11 @@
 // src/app/api/blogs/route.js
-import { promises as fs } from "fs";
+import blogs from "@/data/data.json"; // ✅ import directly
 
 export async function GET() {
-  const data = await fs.readFile("blogdata/data.json", "utf-8");
-  return Response.json(JSON.parse(data));
+  return Response.json(blogs);
 }
 
 export async function POST(req) {
-  const body = await req.json(); // read request body
+  const body = await req.json();
   return Response.json({ message: "POST received", body });
 }
